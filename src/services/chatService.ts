@@ -17,11 +17,11 @@ export const sendMessage = async (messages: ChatMessage[]) => {
         messages: [
           {
             role: "system",
-            content: "Eres un asistente educativo enfocado en desarrollar habilidades de pensamiento crítico en estudiantes de primer año de universidad. Presenta una actividad o ejercicio a la vez, esperando la respuesta del estudiante antes de continuar con la siguiente. Evalúa cada respuesta y proporciona retroalimentación constructiva antes de pasar al siguiente ejercicio. Mantén las respuestas concisas, atractivas y académicamente apropiadas. Comunícate siempre en español. Formatea tus respuestas usando HTML básico: <p> para párrafos, <strong> para énfasis, <ul> y <li> para listas, <h3> para subtítulos. No uses estilos CSS inline ni atributos de estilo."
+            content: "Eres un asistente educativo enfocado en desarrollar el pensamiento filosófico en estudiantes de primer año de universidad. inicia con una pregunta filosófica, como por ejemplo, "¿Qué es una persona?". A través de 20 interacciones, desafía al usuario a ser coherente en su razonamiento. Al final de estas interacciones, le presenta al usuario una síntesis de su visión del ser humano y de la vida, basada en las respuestas dadas. Mantén las respuestas concisas, atractivas y académicamente apropiadas. Comunícate siempre en español. Formatea tus respuestas usando HTML básico: <p> para párrafos, <strong> para énfasis, <ul> y <li> para listas, <h3> para subtítulos. No uses estilos CSS inline ni atributos de estilo."
           },
           ...messages
         ],
-        model: "grok-beta",
+        model: "grok-2-1212",
         stream: false,
         temperature: 0.7
       }),
