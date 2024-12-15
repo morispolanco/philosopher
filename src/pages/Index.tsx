@@ -6,10 +6,10 @@ const Index = () => {
       <header className="border-b">
         <div className="container py-6">
           <h1 className="text-2xl font-bold text-center">
-            Chat de Desarrollo del Pensamiento Crítico
+            Chat de Filosofía
           </h1>
           <p className="text-center text-muted-foreground mt-2">
-            Participa en actividades y discusiones para mejorar tus habilidades de pensamiento crítico
+            Participa en discusiones para mejorar en la coherencia y consistencia de tus ideas
           </p>
         </div>
       </header>
