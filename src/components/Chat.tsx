@@ -14,7 +14,7 @@ export const Chat = () => {
   useEffect(() => {
     const welcomeMessage: IChatMessage = {
       role: "assistant",
-      content: "<h3>¡Bienvenido!</h3><p>Soy tu asistente para desarrollar el pensamiento crítico. Te presentaré una actividad a la vez para que puedas concentrarte mejor en cada ejercicio.</p><p>¿Estás listo para comenzar con el primer ejercicio?</p>",
+      content: "<h3>¡Bienvenido!</h3><p>Soy tu asistente para desarrollar el pensamiento filosófico. Te haré preguntas sobre temas fundametales.</p><p>¿Estás listo para comenzar?</p>",
     };
     setMessages([welcomeMessage]);
   }, []);
